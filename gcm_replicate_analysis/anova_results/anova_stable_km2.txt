@@ -1,0 +1,13 @@
+Repeated-measures ANOVA: Stable (保留)
+Model: aov_ez(id=gcm, dv=..., within=c(species_cn, scenario))
+Error strata: species↔species×GCM | scenario↔scenario×GCM | species×scenario↔residual
+
+Anova Table (Type 3 tests)
+
+Response: stable_km2
+                     num Df  den Df      MSE       F     ges    Pr(>F)    
+species_cn           5.0000 10.0000 52797124 16.0424 0.74271 0.0001698 ***
+scenario             1.0241  2.0481 58409496  6.4181 0.20740 0.1242518    
+species_cn:scenario 10.0000 20.0000  8857056  5.4554 0.24775 0.0006350 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

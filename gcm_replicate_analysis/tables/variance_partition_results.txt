@@ -1,0 +1,29 @@
+==============================================
+  Uncertainty Variance Partitioning
+  Model: pct_change ~ (Species + SSP + GCM)^2
+  (3-way interaction = residual; balanced design, n=1/cell)
+==============================================
+
+--- ANOVA table ---
+                    Df Sum Sq Mean Sq  F value    Pr(>F)    
+species_cn           5 208454   41691 161.8230 1.830e-15 ***
+scenario             2   3621    1811   7.0276  0.004880 ** 
+gcm                  2    643     321   1.2474  0.308646    
+species_cn:scenario 10  10290    1029   3.9940  0.004073 ** 
+species_cn:gcm      10  33964    3396  13.1832 9.461e-07 ***
+scenario:gcm         4   2391     598   2.3206  0.092127 .  
+Residuals           20   5153     258                       
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+--- Variance partition (% of total SS = eta^2) ---
+              source df          SS    F_value      p_value pct_variance
+          species_cn  5 208453.5872 161.823021 1.830342e-15   78.8058484
+            scenario  2   3621.0775   7.027628 4.880434e-03    1.3689478
+                 gcm  2    642.7631   1.247446 3.086460e-01    0.2429965
+ species_cn:scenario 10  10289.7744   3.993988 4.073244e-03    3.8900477
+      species_cn:gcm 10  33964.1510  13.183226 9.460751e-07   12.8401424
+        scenario:gcm  4   2391.3927   2.320555 9.212710e-02    0.9040657
+           Residuals 20   5152.6312         NA           NA    1.9479515
+
+Species: 78.8% | GCM-related: 14.0% | Residual: 1.9%

@@ -1,0 +1,13 @@
+Repeated-measures ANOVA: Gained (扩张)
+Model: aov_ez(id=gcm, dv=..., within=c(species_cn, scenario))
+Error strata: species↔species×GCM | scenario↔scenario×GCM | species×scenario↔residual
+
+Anova Table (Type 3 tests)
+
+Response: gained_km2
+                     num Df  den Df       MSE       F     ges   Pr(>F)   
+species_cn           5.0000 10.0000 129957892 10.1147 0.76556 0.001152 **
+scenario             1.0388  2.0777  10177363  0.0584 0.00031 0.839064   
+species_cn:scenario 10.0000 20.0000  14808965  0.9691 0.06656 0.497920   
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

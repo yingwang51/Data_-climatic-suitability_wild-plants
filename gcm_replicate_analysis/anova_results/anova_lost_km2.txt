@@ -1,0 +1,13 @@
+Repeated-measures ANOVA: Lost (丧失)
+Model: aov_ez(id=gcm, dv=..., within=c(species_cn, scenario))
+Error strata: species↔species×GCM | scenario↔scenario×GCM | species×scenario↔residual
+
+Anova Table (Type 3 tests)
+
+Response: lost_km2
+                     num Df  den Df      MSE       F     ges   Pr(>F)    
+species_cn           5.0000 10.0000 52797124 10.4473 0.65276 0.001013 ** 
+scenario             1.0241  2.0481 58409496  6.4181 0.20740 0.124252    
+species_cn:scenario 10.0000 20.0000  8857056  5.4554 0.24775 0.000635 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

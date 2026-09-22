@@ -1,0 +1,40 @@
+简单主效应: 每个物种下SSP情景间差异 (GCM作随机重复)
+==============================================
+
+species_cn = 小黄花菜:
+ contrast        estimate   SE   df t.ratio p.value
+ ssp126 - ssp245   -0.219 14.5 20.6  -0.015  0.9999
+ ssp126 - ssp585   -3.338 14.5 20.6  -0.231  0.9712
+ ssp245 - ssp585   -3.119 14.5 20.6  -0.215  0.9748
+
+species_cn = 短瓣金莲花:
+ contrast        estimate   SE   df t.ratio p.value
+ ssp126 - ssp245   -0.860 14.5 20.6  -0.059  0.9981
+ ssp126 - ssp585   -0.744 14.5 20.6  -0.051  0.9985
+ ssp245 - ssp585    0.116 14.5 20.6   0.008  1.0000
+
+species_cn = 笃斯越桔:
+ contrast        estimate   SE   df t.ratio p.value
+ ssp126 - ssp245   10.275 14.5 20.6   0.710  0.7605
+ ssp126 - ssp585   42.767 14.5 20.6   2.954  0.0201
+ ssp245 - ssp585   32.492 14.5 20.6   2.245  0.0871
+
+species_cn = 偃松:
+ contrast        estimate   SE   df t.ratio p.value
+ ssp126 - ssp245  -13.824 14.5 20.6  -0.955  0.6126
+ ssp126 - ssp585  -28.311 14.5 20.6  -1.956  0.1486
+ ssp245 - ssp585  -14.487 14.5 20.6  -1.001  0.5847
+
+species_cn = 越桔:
+ contrast        estimate   SE   df t.ratio p.value
+ ssp126 - ssp245   21.333 14.5 20.6   1.474  0.3237
+ ssp126 - ssp585   39.724 14.5 20.6   2.744  0.0316
+ ssp245 - ssp585   18.391 14.5 20.6   1.270  0.4271
+
+species_cn = 杜香:
+ contrast        estimate   SE   df t.ratio p.value
+ ssp126 - ssp245   35.080 14.5 20.6   2.423  0.0613
+ ssp126 - ssp585   69.878 14.5 20.6   4.827  0.0003
+ ssp245 - ssp585   34.798 14.5 20.6   2.404  0.0637
+
+P value adjustment: tukey method for comparing a family of 3 estimates 
