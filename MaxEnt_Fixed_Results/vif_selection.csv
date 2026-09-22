@@ -1,0 +1,12 @@
+variable,VIF,status
+bio3,1.48,保留
+bio4,6.27,保留
+bio9,4.39,保留
+bio12,1.66,保留
+bio14,2.54,保留
+bio15,5.04,保留
+elevation,3.26,保留
+pop_density,1.52,保留
+slope,1.17,保留
+aspect,1.02,保留
+bio2,NA,剔除
